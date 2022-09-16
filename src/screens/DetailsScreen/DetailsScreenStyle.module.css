@@ -1,0 +1,128 @@
+.detailsArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.flagContainer {
+  flex: 1;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0;
+  margin: 0;
+}
+
+.detailsArea .flagContainer img {
+  display: block;
+  width: 560px;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+}
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.descriptionWrapper {
+  margin: 0 0 0 115px;
+  padding: 40px 0 0 0;
+  background-color: transparent;
+}
+
+.countryName {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.boldText {
+  font-weight: 600;
+}
+
+.countryDescription {
+  display: flex;
+  flex-direction: row;
+  border: 0px solid red;
+  margin: 0;
+  padding: 15px 0;
+  justify-content: space-between;
+}
+.countryDescription div.left,
+.countryDescription div.right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.countryDescription div.left {
+  margin-right: 5px;
+}
+
+.countryDescription p {
+  margin: 5px 0;
+}
+
+.bordersBtnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 53px;
+}
+
+.bordersBtnAreaLeft {
+  flex: 1;
+}
+.bordersBtnAreaRight {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 1130px) {
+  .detailsArea {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .detailsArea .flagContainer img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: 30px 0;
+  }
+  .descriptionWrapper {
+    padding: 30px 0 0 0;
+    margin: 0;
+  }
+
+  .countryDescription {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    margin: 0;
+    padding: 15px 0;
+    justify-content: space-between;
+  }
+  .countryDescription div.left {
+    margin-bottom: 30px;
+  }
+
+  .bordersBtnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+
+  .bordersBtnAreaLeft {
+    margin-bottom: 15px;
+  }
+}

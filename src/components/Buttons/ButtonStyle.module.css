@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border-color: #dedede;
+  border: 0px solid #fff;
+  box-shadow: 0 0 5px #dedede;
+  height: 40px;
+  width: 135px;
+  padding: 0;
+}
+
+.btnText {
+  text-decoration: none;
+}

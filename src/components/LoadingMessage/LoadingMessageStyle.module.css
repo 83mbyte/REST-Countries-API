@@ -1,0 +1,11 @@
+.warningText {
+  margin: 50px auto;
+  font-weight: 600;
+  animation: blinker 1s linear infinite;
+  text-align: center;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,22 @@
+@media (min-width: 1140px) {
+  .container {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1135px;
+    min-width: 1135px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+@media (max-width: 1135px) {
+  .container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+  }
+}

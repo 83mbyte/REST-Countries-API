@@ -1,0 +1,40 @@
+.container {
+  background-color: none;
+  height: 70px;
+  box-shadow: 0 1px 15px #dedede;
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  z-index: 1001;
+}
+
+.flexRowContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-size: 16px;
+}
+
+.logoContainer {
+}
+.logoContainer p {
+  font-weight: 800;
+}
+
+.themeSwitch {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+}
+
+.themeSwitch p {
+  cursor: pointer;
+}

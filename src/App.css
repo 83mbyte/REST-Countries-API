@@ -1,0 +1,24 @@
+.light-content {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(200, 15%, 8%);
+}
+
+.light-content a {
+  color: hsl(200, 15%, 8%);
+}
+
+.dark-content {
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%);
+}
+.dark-content input {
+  color: hsl(0, 0%, 100%);
+}
+.dark-content a {
+  color: hsl(0, 0%, 100%);
+}
+
+.fontItalic {
+  font-style: italic;
+  color: #a5a5a5;
+}

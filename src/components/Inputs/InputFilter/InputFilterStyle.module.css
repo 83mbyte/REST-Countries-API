@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px;
+  border-color: #dedede;
+  border: 0px solid #fff;
+  box-shadow: 0 0 5px #dedede;
+  height: 40px;
+  width: 125px;
+  margin: 0;
+  padding: 5px 25px;
+  font-size: 14px;
+  position: relative;
+}
+
+.filter {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.icon {
+  color: red;
+}
+
+.expandArea {
+  background-color: #fff;
+  box-shadow: 0 0 5px #dedede;
+  border-radius: 4px;
+  width: 175px;
+  padding: 0;
+  margin: 10px 0 0 0;
+  z-index: 1000;
+  position: absolute;
+}
+.filterItem {
+  font-size: 14px;
+  margin: 0;
+  padding: 0 25px;
+}
+.filterItem p {
+  background-color: transparent;
+  margin: 5px 0;
+  padding: 1px 0;
+  text-align: left;
+  cursor: pointer;
+}
+.filterItem:hover {
+  opacity: 35%;
+}
+
+@media (max-width: 1130px) {
+  .container {
+    position: relative;
+  }
+  .expandArea {
+    background-color: #fff;
+    border: 0px solid red;
+    margin-top: 520px;
+    top: 200px;
+  }
+}
